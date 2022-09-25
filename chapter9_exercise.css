@@ -84,7 +84,30 @@ footer {
 
 
 
+@media screen and (max-width:768px) {
+	main {
+		width: 100%;
+	}
 
+	.box {
+		width: 90%;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.box:nth-child(2) {
+		margin: 20px auto;
+	}
+
+	.image1, .image2, .image3 {
+		background-position: bottom;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+}
 
 
 
